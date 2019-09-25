@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="header">
-      <img class="header__logo" src="./img/index-logo.svg" alt="Барбершоп Барадинский">
+      <img class="header__logo" src="./img/index-logo.svg" alt="логотип Барбершоп Бородинский">
       <nav class="header__navbar navbar">
         <ul class="navbar__links">
           <li><a href="#">Информация</a></li>
@@ -21,5 +21,72 @@
         </ul>
       </nav>
     </header>
+    <main class="index-main">
+      <h1 class="visual-hidden">Сайт барбершопа Бородинский</h1>
+      <section class="advantages">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h2 class="advantages__title">Быстро</h2>
+            <p class="advantages__text">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стрижки-минутки!</p>
+          </li>
+          <li class="advantages__item">
+            <h2 class="advantages__title">Круто</h2>
+            <p class="advantages__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </li>
+          <li class="advantages__item">
+            <h2 class="advantages__title">Дорого</h2>
+            <p class="advantages__text">Наши мастера профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не даёт определённый статус?</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <h2 class="news__title">Новости</h2>
+        <p class="news__test">Нам наконец завезли ягермастер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+        <span class="news__data">11 января</span>
+        <p class="news__test">В нашей команде пополнение, Борис "Бритва" Стригунец. Обладатель множества титулов и наград пополнил наши стройные ряды</p>
+        <span class="news__data">18 января</span>
+        <a href="#" class="button news__link">Все новости</a>
+      </section>
+      <section class="gallery">
+        <h2 class="gallery__title">Фотогалерея</h2>
+        <figure>
+          <img src="./img/gallery_img_1.jpg" alt="рабочие места наших барберов">
+          <img src="./img/gallery_img_1.jpg" alt="рабочие места наших барберов">
+          <img src="./img/gallery_img_1.jpg" alt="рабочие места наших барберов">
+        </figure>
+        <button type="button" class="button">Назад</button>
+        <button type="button" class="button">Вперед</button>
+      </section>
+      <section class="info">
+        <h2 class="info__title">Контактная информация</h2>
+        <p class="info__text">Барбершоп "Бородинский"<br>Адрес: г.Санкт-Петербург, Б.Конюшная, д. 19/8<br>Телефон: +7 (495) 666-02-66</p>
+        <p class="info__text">Время работы:<br>пн-пт: с 10:00 до 22:00<br>сб-вс: с 10:00 до 19:00</p>
+        <a href="#" class="info__link button">Как проехать</a>
+        <a href="#" class="info__link button">Обратная связь</a>
+      </section>
+      <section class="record">
+        <h2 class="record__title">Записаться</h2>
+        <p class="text">Укажите желаемую дату и время и мы свяжемся с вамидля подтверждения брони</p>
+        <form class="record__form form">
+          <p class="form__item">
+            <label for="date">Дата</label>
+            <input type="date" name="date" placeholder="08.10.2017">
+          </p>
+          <p class="form__item">
+            <label for="time">Время</label>
+            <input type="time" name="time" placeholder="10:00">
+          </p>
+          <p class="form__item">
+            <label for="name">Ваше имя</label>
+            <input type="text" name="name" placeholder="Борода">
+          </p>
+          <p class="form__item">
+            <label for="phone">Телефон</label>
+            <input type="tel" name="phone" placeholder="+7 123 456-78-90">
+          </p>
+          <button type="submit" name="button" class="button">Отправить</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
